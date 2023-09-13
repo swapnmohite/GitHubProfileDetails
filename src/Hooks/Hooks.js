@@ -1,9 +1,10 @@
 import React from 'react'
-import Getobject from './Getobject'
+import Usearraytask from './Usearraytask'
+
 const Hooks = () => {
     return (
         <>
-            <Getobject />
+            <Usearraytask />
         </>
     )
 }
