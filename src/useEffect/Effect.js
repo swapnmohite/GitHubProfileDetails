@@ -1,11 +1,11 @@
 import React from 'react'
 
-import UseEffect2 from './UseEffect2'
+import GithubProfile from './GithubProfile'
 
 const Effect = () => {
     return (
         <>
-            <UseEffect2 />
+            <GithubProfile />
         </>
     )
 }

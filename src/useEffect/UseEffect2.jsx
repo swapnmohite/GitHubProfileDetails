@@ -4,9 +4,8 @@ const UseEffect2 = () => {
     let [count, setcount] = useState(0);
     let [name, setname] = useState({ name: "", email: "" });
 
-
     useEffect(() => {
-        document.title = `chat ${count}`;
+        document.title = `count ${count}`;
         console.log("inside useEffect");
     }, [count])
 
@@ -19,5 +18,4 @@ const UseEffect2 = () => {
         </div>
     )
 }
-
 export default UseEffect2
